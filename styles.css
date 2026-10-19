@@ -1,0 +1,28 @@
+html {
+    background-color: aliceblue;
+}
+
+body {
+    margin: 0;
+}
+
+.site-links {
+    background-color: rgb(255, 210, 232);
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.site-link {
+    background-color: rgb(182, 237, 255);
+    padding: 10px;
+    color: rgb(255, 128, 195);
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.site-link:hover {
+    background-color: rgb(255, 223, 248);
+}
