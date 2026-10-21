@@ -1,28 +1,48 @@
 html {
-    background-color: aliceblue;
+    background-color: rgb(254, 250, 226);
+    font-family: "Bebas Neue", sans-serif;
 }
 
 body {
     margin: 0;
 }
 
-.site-links {
-    background-color: rgb(255, 210, 232);
-    list-style-type: none;
+.site-header {
+    background-color: rgb(255, 187, 223);
     padding: 10px;
+}
+
+.sidebar {
+    background-color: rgb(179, 255, 255);
+    padding: 10px;
+    flex: 0 0 200px;
+}
+
+.site-main {
+    background-color: rgb(255, 247, 171);
+    padding: 10px;
+}
+
+.site-footer {
+    background-color: rgb(232, 186, 255);
+    padding: 10px;
+}
+
+.two-col {
     display: flex;
     gap: 10px;
+    margin: 10px 0;
 }
 
-.site-link {
-    background-color: rgb(182, 237, 255);
-    padding: 10px;
-    color: rgb(255, 128, 195);
-    text-decoration: none;
-    border-radius: 10px;
-    display: inline-block;
+.wrapper {
+    max-width: 700px;
+    margin: 30px auto 0 auto;
+    background-color: aliceblue;
 }
 
-.site-link:hover {
-    background-color: rgb(255, 223, 248);
+.site-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
